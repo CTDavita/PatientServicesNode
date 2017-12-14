@@ -1,0 +1,32 @@
+{
+  "name": "patientservice",
+  "version": "1.0.0",
+  "description": "This package cointains all services and dependencies required to process service requests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo patientservice up and running ",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CTDavita/PatientServicesNode.git"
+  },
+  "keywords": [
+    "Testing",
+    "Patient",
+    "Service"
+  ],
+  "author": "CTDavita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CTDavita/PatientServicesNode/issues"
+  },
+  "homepage": "https://github.com/CTDavita/PatientServicesNode#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.6"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jfs": "^0.3.0"
+  }
+}
