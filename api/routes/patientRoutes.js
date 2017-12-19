@@ -5,7 +5,8 @@ module.exports = function(app) {
 
   app.route('/patients')
     .get(patientList.list_all_patients)
-    .post(patientList.create_a_patient);
+    .post(patientList.create_a_patient)
+    .get(patientList.get_patient_demographics);
 
 
   /*app.route('/patients/:patientId')
