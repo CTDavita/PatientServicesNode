@@ -25,3 +25,12 @@ exports.create_a_patient = function(req, res) {
       });
       
   };
+
+  exports.get_patient_demographics = function(req,res) {
+        db.all(function(err,objs) {
+            var vals = [];
+            for (var i in objs)
+                vals.push(objs[i])
+            res.json(vals)
+        });
+  };
